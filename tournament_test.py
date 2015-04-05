@@ -199,7 +199,6 @@ def testEightPlayerTourney():
     reportMatch(pid6, pid5)
     reportMatch(pid8, pid7)
 
-    #Get standings after round 1
     standings = playerStandings()
 
     winner = 'Ned'
@@ -249,7 +248,6 @@ def testSevenPlayerTourney():
     reportMatch(pid6, pid5)
     reportMatch(pid8, pid7)
 
-    #Get standings after round 1
     standings = playerStandings()
     
     winner = 'Anne'
